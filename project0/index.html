@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Search</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        .bar {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .search {
+            text-align: center;
+        }
+
+        .search-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .search-input {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 15px;
+            margin-bottom: 10px;
+            width: 300px;
+        }
+
+        .search-submit {
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin: 0 5px;
+        }
+
+        .search-submit:hover {
+            background-color: lightgrey;
+        }
+
+        .button-group {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bar">
+        <a href="imagesearch.html">Image Search</a>
+        <a href="advancedsearch.html">Advanced Search</a>
+    </div>
+    <div class="search">
+        <form class="search-form" action="https://google.com/search">
+            <input class="search-input" type="text" name="q" placeholder="Search...">
+            <div class="button-group">
+                <button class="search-submit" type="submit">Google Search</button>
+                <button class="search-submit" type="submit" name="btnI">I’m Feeling Lucky</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+

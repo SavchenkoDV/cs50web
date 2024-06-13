@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Advance search</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .bar {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .search {
+            align-items: center;
+        }
+
+        .search-form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .search-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        .search-label {
+            font-weight: bold;
+            font-size: 20px;
+            min-width: 290px; 
+            text-align: left;
+            margin: 0 10px;
+        }
+
+        .search-input {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 2px;
+            border: 1px solid;
+            width: 300px;
+            height: 10px;
+        }
+
+        .search-submit {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #4d90fe;
+            border-radius: 2px;
+            border: 1px solid;
+            transition: background-color 0.3s ease;
+            align-self: flex-end;
+        }
+
+        .search-submit:hover {
+            background-color: #8ab4f8;
+            border: 1px solid #3079ed;
+        }           
+
+    </style>
+</head>
+<body>
+    <div class="bar">
+        <a href="index.html">Go back</a>
+    </div>
+    <div class="search">
+        <form class="search-form" action="https://www.google.com/search">
+            <div class="search-item">
+                <label class="search-label" for="as_q">Search all these words:</label>
+                <input class="search-input" type="text" id="as_q" name="as_q" placeholder="all these words">
+            </div>
+            <div class="search-item">
+                <label class="search-label" for="as_epq">Search this exact word or phrase:</label>
+                <input class="search-input" type="text" id="as_epq" name="as_epq" placeholder="exact word or phrase">
+            </div>
+            <div class="search-item">
+                <label class="search-label" for="as_oq">Search any of these words:</label>
+                <input class="search-input" type="text" id="as_oq" name="as_oq" placeholder="any of these words">
+            </div>
+            <div class="search-item">
+                <label class="search-label" for="as_eq">Search none of these words:</label>
+                <input class="search-input" type="text" id="as_eq" name="as_eq" placeholder="none of these words">
+            </div>
+            <button class="search-submit" type="submit">Google Search</button>
+        </form>
+    </div>
+</body>
+</html>
