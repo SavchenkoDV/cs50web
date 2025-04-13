@@ -4,5 +4,5 @@ This is my solution for Harvard University's CS50 Web Programming course. The co
 
 ## Projects
 
-- [Project 0 - HTML, CSS - Design a front-end for Google Search, Google Image Search, and Google Advanced Search](https://savchenkodv.github.io/cs50web/project0)
+- [Project 0 - HTML, CSS - Design a front-end for Google Search, Google Image and Advanced Searches](https://savchenkodv.github.io/cs50web/project0)
 
