@@ -1,14 +1,6 @@
 # CS50 Web Programming
 
-This is my solution for Harvard University's CS50 Web Programming course. The course focuses on the in-depth design and implementation of web applications using Python, JavaScript, and SQL. It covers frameworks like Django, React, and Bootstrap.
-
-## Project Details
-
-The goal of the course is to build web applications with modern web technologies. I have completed several projects that explore different aspects of web development, from backend logic with Python and Django to frontend interfaces with React and Bootstrap.
-
-## Link to Publications
-
-- [CS50 Web Programming](https://savchenkodv.github.io/cs50web)
+This course picks up where CS50x leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap. Topics include database design, scalability, security, and user experience. Through hands-on projects, students learn to write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku. By semester’s end, students emerge with knowledge and experience in principles, languages, and tools that empower them to design and deploy applications on the Internet.
 
 ## Projects
 
